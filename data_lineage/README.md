@@ -27,7 +27,7 @@ Para esta conexión, en el archivo **docker-compose.yml** incorporaremos las sig
 ```yml
 
     # Marquez (OpenLineage) configs parameters:
-    AIRFLOW__OPENLINEAGE__TRANSPORT: '{"type": "http", "url": "http://192.168.50.40:5000", "endpoint": "api/v1/lineage"}'
+    AIRFLOW__OPENLINEAGE__TRANSPORT: '{"type": "http", "url": "http://xxxx.xxx.xxx.xxx:5000", "endpoint": "api/v1/lineage"}'
     AIRFLOW__OPENLINEAGE__NAMESPACE: 'tbl-airflow-00'
     AIRFLOW__OPENLINEAGE__DISABLED: false
     AIRFLOW__OPENLINEAGE__DISABLE_SOURCE_CODE: true
